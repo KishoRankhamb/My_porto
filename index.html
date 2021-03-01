@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" lang="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body>
+    <!--Creating Menu Tabs & Logo at Top Using HTML-->
+    <header>
+    <a href="#" class="logo">Portofolio</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#education" onclick="toggleMenu();">Education</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Training & Internship</a></li>
+            <li><a href="#Project" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+    </header>
+    
+    <!--Creating Banner Layout in HTML-->
+    <section class="banner" id="home" style="background-image: url(Images/2.jpg);">
+        <div class="textBx">
+                <h2 style="color:brown;"><b>Hello, I'm</b><br><span style="color:black;"><b>Kishor Rankhamb</b></span></h2>
+                <h3 style="color:tomato;"><b>Web & Python Developer</b></h3>              
+        </div>
+    </section>
+
+    <!--About Pages-->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="Images/Small.jpeg" alt=" " class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Rankhamb Kishor J</b>, Web Developer & Python Developer</h2>
+                <p>I am a self-starter with strong interpersonal skills.
+                     I work efficiently both as an 
+                     individual contributor as well
+                      as along with a team. I seek new 
+                      challenges and try to think out-of-the-box 
+                      while looking for creative solutions to a given
+                       problem.</p>
+                       <br>
+                <p> Besides the details given in my resume, 
+                       I believe in character, values, vision, and action.
+                        I am a quick learner and believe in learning from my 
+                        mistakes for I strongly feel that this virtue will take me 
+                        ahead in life and career.
+                </p>
+
+                <div class="heading Bottom">
+                    <a href="https://drive.google.com/file/d/1msm8hpgE3yornBVuyxXJGSpJK_l35mPf/view?usp=sharing" class="btn round">DOWNLOAD CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Rankhamb Kishor jeevan<br>
+                        <b>Email:</b>kishor.rankhamb28@gmail.com
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!--Educational Qualifications-->
+ <section class="container" id="education">
+    <div class="heading white">
+        <p style="color: black; font-size:large;">Academic</p>
+        <h2>Education</h2>
+    </div>
+    <div class="card">
+                  <div class="container">
+                    <p><b>Class:</b>&nbsp;SSC(10th)</p>
+                     <p><b>Year:</b>&nbsp;2012-2013</p>
+                     <p><b>School:</b>&nbsp;Mahatma Phule vidyalaya <br>Ahmedpur</p>
+                     <p><b>Board:</b>&nbsp;Maharashtra SSC State Board</p>
+                     <p><b>Percent:</b>&nbsp;79.20</p>
+                 </div>
+
+                <div class="container">
+                     <p><b>Class</b>:&nbsp;HSC(12th)</p>
+                     <p><b>Year:</b>&nbsp;2013-2015</p>
+                     <p><b>School:</b>&nbsp;Mahatma Gandhi Mahavidyalaya <br>Ahmedpur</p>
+                     <p><b>Board:</b>&nbsp;Maharashtra HSC State Board</p>
+                     <p><b>Percent:</b>&nbsp;55.69</p>
+                </div>
+          
+                <div class="container">
+                    <p><b>Class:</b>Diploma in Computer Science</p>
+                    <p><b>Year:</b>&nbsp;2015-2018</p>
+                    <p><b>College:</b>&nbsp;MDA Institute Of Polytechnic Kolpa,Latur</p>
+                    <p><b>Board:</b>&nbsp;MSBTE,MUMBAI</b></p>
+                    <p><b>Percent:</b>&nbsp;78.13</p>
+                </div>
+
+                 <div class="container">
+                     <p><b>Class:</b>&nbsp;BTECH in Computer Science & Engineering</p>
+                     <p><b>Year:</b>2018-2021</p>
+                     <p><b>College:</b>&nbsp;M.B.E.Society's Collge Of Engineering Ambajogai</b></p>
+                     <p><b>University:</b>&nbsp;DBATU, Lonere </b></p>
+                     <p><b>CGPA:&nbsp;----</b></p>
+                 </div>    
+  </div>
+</section>
+ <!--Qualifications End-->
+
+
+ <!-- Creating Technical SKills Layout in HTML -->
+ <section class="services" id="skills">
+    <div class="heading white">
+        <h2>Technical Skills</h2>
+        <p>Languages i learn</p>
+    </div>
+    <div class="content">
+        <div class="servicesBx">
+            <h3>HTML</h3> 
+            <progress id="file" value="100" max="100">100% </progress>   
+            <p>Level:- Expert</p>
+        </div>
+        <div class="servicesBx">
+            <h3>CSS</h3> 
+            <progress id="file" value="100" max="100">100% </progress>   
+            <p>Level:- Expert</p>
+        </div>
+        <div class="servicesBx">
+            <h3>Wordpress </h3>
+            <progress id="file" value="50" max="100">50% </progress>
+            <p>Level:- Intermediate</p>
+        </div>
+        <div class="servicesBx">
+            <h3>Python</h3>
+            <progress id="file" value="95" max="100">95% </progress>
+            <p>Level:- Advanced</p>
+        </div>
+        <div class="servicesBx">
+            <h3>ReactJS</h3>
+            <progress id="file" value="30" max="100">30% </progress>
+            <p>Level:- Begineer</p>
+        </div>
+        
+    </div>
+</section>
+<!--Serivces End-->
+
+
+<!--Creating Internships Layout in HTML -->
+
+<section class="work" id="work">
+    <div class="heading">
+        <h2>Internships & Training</h2>       
+    </div>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+              <p><b>Beta Tech Solutions Private Ltd Latur</b></p>
+              <p style="text-align:Center;"><b>Role:</b>15 Days Internship on ASP.NET</p>
+              <p>01 Dec 2019 - 15 Dec 2019</p>
+              <p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Responsibilities:-</b><br>
+                    The tasks given by Beta Tech Solutions and the small mini projects using ASP.NET & Making database using SQL Server and connect them to the Forms that we have designed and project report need to submitted on ASP.NET</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <p><b>Inventrom Private Ltd,Banglore</b></p>
+            <p><b>Role:</b>Student Internship Program</p>
+            <p>16 Nov 2020 - 15 January 2021</p>
+            <p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="text-align: center;">Responsibilities:-</b><br>
+                The tasks completed by me in this internship related to popularising the concepts of Internet of Things(IoT) and Machine Learning(ML), 
+                  brand awareness and business development of the Bolt IoT and ML online video training..</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <p><b>Unschool,Hyderabad</b></p>
+            <p><b>Role:</b>Unschool Community Influencer</p>
+            <p>15 Nov 2020 - 01 March 2021</p>
+            <p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Responsibilities:-</b><br>
+                Market research to identify the target market for the products and Promotion (Sales and Marketing) of Unschool products through various marketing channels as well as Market Expansion and market penetration.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card"><a href="https://drive.google.com/drive/folders/15B-j_yjJlOrrq4_PBYvqklnVH7IK4l8X?usp=sharing" class="certificate" style="text-decoration: none;"><b>Check out My Certifications</b></a>
+            <p>Check out my all<br>Ceritifcaitons & Achievements</p>
+        </div>
+        </div>
+      </div>
+        
+    </div>
+</section>
+
+<!-- Creating Projects Layout in HTML -->
+<section class="testimonial" id="Project">
+    <div class="heading white">
+        <h2>Projects</h2>
+        <p>I Have Done in my Academic</p>
+    </div>
+    <div class="content">
+        <div class="testimonialBx">
+            <p>Departmental Website Project i have Done in my Diploma Computer Technology Academic
+               This Project totally helps to one of the Departmental Students to access their notes,exam schedule etc From
+               anywhere at anytime.We use Languages like HTML,CSS,ASP.NET,SQL Server 2008 R2 for this Project..You can check the Source Code of this Projects on my Git-Repo by clicking on the below Button..<br>
+               <a href="https://github.com/KishoRankhamb/Departmental-Website" class="repo">Departmental Website</a>
+            </p>
+            <h3>Kishor Rankhamb</h3>
+        </div>
+        <div class="testimonialBx">
+            <p>Heart Disease Prediction Project Using Python & Machine Learning is our BTECH thesis.In this Project
+                we can easily predict which kind of heart disease you have by using your symptoms report.You have to just enter your 
+                symptoms in to the given field and from that symptoms the Machine detects from which disease you are suffering..<br>
+                <a href="https://github.com/KishoRankhamb/Heart_Disease" class="repo">Heart Disease(Work in Progress)</a>
+            </p>
+            <h3>Kishor Rankhamb</h3>
+        </div>
+    </div>
+</section>
+
+<!-- Creating Contact Layout in HTML -->
+<section class="contact" id="contact">
+    <div class="heading white">
+        <p>Feel free to contact me anytime</p>
+        <h2>Get in Touch</h2>
+    </div>
+    <div class="content">
+        <div class="contactInfo">
+            <h3>Contact Info</h3>
+            <div class="contactInfoBx">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Sai Vihar,<br>Block No 2<br>Near Sai Mandir<br>Shivaji Chowk, Latur - 413512</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Phone no :</h3>
+                        <p>+91-9146433686</p>
+                        <p>+91-8180911639</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-envelope-o"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Email Address</h3>
+                        <p>kishor.rankhamb28@gmail.com</p>
+                    </div>
+                </div>
+               
+                <div class="boxSocial">
+                    <div class="icon">
+                        <a href="https://secure.skype.com/portal/profile" target="_blank">
+                            <i class="fa fa-skype" aria-hidden="true"></i>   
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://twitter.com/KishorRankhamb" target="_blank">
+                            <i class="fa fa-twitter-square"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/kishor-rankhamb-b657a5138/" target="_blank">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://github.com/KishoRankhamb" target="_blank">
+                            <i class="fa fa-github-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="formBx">
+            <form>
+                <h3>Message Me</h3>
+                <input type="text" placeholder="Full Name" name="">
+                <input type="email" placeholder="Email" name="">
+                <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" name="">
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+</html>
